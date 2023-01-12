@@ -67,6 +67,23 @@ body{
     background-color: #428bca;
     padding : 5px 15px;
   }
+
+  .container{
+    height: 80vh;
+    width: 80vw;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    text-align: center;
+    justify-content: center;
+    
+ 
+
+  }
+
+  .container p{
+    color: black;
+    margin: 0px;
+    
+  }
   
   
   
