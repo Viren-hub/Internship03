@@ -67,6 +67,14 @@ body{
     background-color: #428bca;
     padding : 5px 15px;
   }
+<<<<<<< HEAD
+  .portfolio{
+    background-color: blueviolet;
+  }
+=======
+<<<<<<< HEAD
+  /*------------------------madhuri pati;---------------*/
+=======
 
   .container{
     height: 80vh;
@@ -173,9 +181,150 @@ body{
 
 
 
+>>>>>>> a36c2d88782de6c9b9c13ab81ffe72ebfe3203bf
   
+  *{
+    margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+/*------navbar-------*/
+.header{
+  height: 100vh;
+  background-image: url(./hero4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.navbar{
+  background-color: #fff;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
   
+}
+.navbar ul{
+  display: flex;
+  list-style: none;
+  margin: 20px 0;
+}
+.navbar ul li{
+  font-size: 1.1rem;
+  font-weight: bold;
   
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 8px 25px;
+}
+/*---------home-------*/
+.home{
+  position: absolute;
+  top:40%;
+  margin-left:60px;
+  
+}
+.btn{
+  padding: 5px 12px;
+  background-color:gray;
+  color:black;
+  border: 1px solid red;
+  font-size: large;
+  margin-left: 20px;
+  transition:.6s ease;
+  text-decoration: none;
+  
+}
+.btn:hover{
+  background-color:goldenrod;
+  color: black;
+  box-shadow: 0 0 5px white,0 0 10px white;
+}
+
+>>>>>>> 50cc9fb80049fad3150e5f40adf60c0de8ea1b5b
+  
+  /* vaishnavi */
+  nav{
+    height: 10vh;
+    background-color: darkslateblue;
+  }
+  ul{
+    display: block;
+    justify-content: center;
+    text-align: center;
+  }
+ li{
+    display: inline-block;
+    padding: 25px;
+  }
+  li a{
+    color: white;
+  }
+  li a:hover{
+    color: white;
+    text-decoration: none;
+  }
+  .portfolio{
+    height: 100vh;
+    width: 80vw;
+    background-color: rgb(125, 62, 184);
+    display: flex;
+    position: relative;
+  }
+  .left{
+    width: 40vw;
+    height: 100vh;
+  }
+  .left h2{
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  span{
+    color: pink;
+    font-style: italic;
+  }
+  .left  h5{
+      color: white;
+      position: absolute;
+      top: 25%;
+      left: 10%;
+      font-weight: bold;
+  }
+  .left h4{
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-weight: bold;
+
+  }
+  .right{
+    width: 40vw;
+    height: 100vh;
+  }
+ .right img{
+  height: 70vh;
+  width: 40vw;
+  padding: 60px 20px 20px 20px;
+ }
+ button{
+  width: 10vw;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  background-color: rgb(23, 23, 219);
+  color: white;
+ }
+ button:hover{
+  background-color: black;
+ }
+ /* end vaishnavi */
   
   
   
