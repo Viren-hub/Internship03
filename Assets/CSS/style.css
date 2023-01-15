@@ -67,7 +67,67 @@ body{
     background-color: #428bca;
     padding : 5px 15px;
   }
+  /*------------------------madhuri pati;---------------*/
   
+  *{
+    margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+/*------navbar-------*/
+.header{
+  height: 100vh;
+  background-image: url(./hero4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.navbar{
+  background-color: #fff;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  
+}
+.navbar ul{
+  display: flex;
+  list-style: none;
+  margin: 20px 0;
+}
+.navbar ul li{
+  font-size: 1.1rem;
+  font-weight: bold;
+  
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 8px 25px;
+}
+/*---------home-------*/
+.home{
+  position: absolute;
+  top:40%;
+  margin-left:60px;
+  
+}
+.btn{
+  padding: 5px 12px;
+  background-color:gray;
+  color:black;
+  border: 1px solid red;
+  font-size: large;
+  margin-left: 20px;
+  transition:.6s ease;
+  text-decoration: none;
+  
+}
+.btn:hover{
+  background-color:goldenrod;
+  color: black;
+  box-shadow: 0 0 5px white,0 0 10px white;
+}
+
   
   
   
