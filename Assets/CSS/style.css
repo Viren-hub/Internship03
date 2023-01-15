@@ -67,9 +67,182 @@ body{
     background-color: #428bca;
     padding : 5px 15px;
   }
+<<<<<<< HEAD
   .portfolio{
     background-color: blueviolet;
   }
+=======
+<<<<<<< HEAD
+  /*------------------------madhuri pati;---------------*/
+=======
+
+  .container{
+    height: 80vh;
+    width: 80vw;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    text-align: center;
+    justify-content: center;
+    
+ }
+
+
+ /*****************Ganesh css**************/
+
+ 
+.main-page{
+	height: auto;
+	width: 800px;
+	background-color: white;
+	box-shadow: 5px 7px 15px 5px #b9b6b6;
+	margin: 20px auto;
+  position: absolute;
+  top: 0px;
+
+}
+
+.top-section{
+	background-color:#151b29;
+	text-align: center;
+	padding: 20px;
+}
+.profile{
+	width: 150px;
+	border-radius: 50%;
+}
+.p1{
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+	margin: 0px;
+	margin-top: 10px;
+}
+.p1 span{
+	font-weight: 100;
+	color: #c7c7c7;
+}
+.p2{
+	font-size: 20px;
+	color: #c7c7c7;
+	margin: 0px;
+	margin-top: 10px;
+}
+.col-div-4{
+	width: 35%;
+	float: left;
+
+}
+.col-div-8{
+	width: 62%;
+	float: left;
+}
+.line{
+	border-left: 1px solid #c7c7c7;
+  height: 600px;
+  width: 2%;
+  margin-top: 30px;
+  float:left;
+}
+.content-box{
+	padding: 20px;
+}
+.head{
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.p3{
+	color: #7b7b7b;
+	margin-bottom: -5px;
+
+}
+.fa{
+	color: #151b29;
+}
+.skills{
+	margin-left: -20px;
+	    margin-bottom: 0px;
+}
+.skills li{
+	padding: 5px;
+}
+.skills li span{
+	color: #7b7b7b;
+}
+.p-4{
+	font-size: 14px;
+	color: #7b7b7b;
+}
+			
+  
+
+
+
+
+
+
+
+>>>>>>> a36c2d88782de6c9b9c13ab81ffe72ebfe3203bf
+  
+  *{
+    margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+/*------navbar-------*/
+.header{
+  height: 100vh;
+  background-image: url(./hero4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.navbar{
+  background-color: #fff;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  
+}
+.navbar ul{
+  display: flex;
+  list-style: none;
+  margin: 20px 0;
+}
+.navbar ul li{
+  font-size: 1.1rem;
+  font-weight: bold;
+  
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 8px 25px;
+}
+/*---------home-------*/
+.home{
+  position: absolute;
+  top:40%;
+  margin-left:60px;
+  
+}
+.btn{
+  padding: 5px 12px;
+  background-color:gray;
+  color:black;
+  border: 1px solid red;
+  font-size: large;
+  margin-left: 20px;
+  transition:.6s ease;
+  text-decoration: none;
+  
+}
+.btn:hover{
+  background-color:goldenrod;
+  color: black;
+  box-shadow: 0 0 5px white,0 0 10px white;
+}
+
+>>>>>>> 50cc9fb80049fad3150e5f40adf60c0de8ea1b5b
   
   
   
